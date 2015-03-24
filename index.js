@@ -16,3 +16,7 @@ exports.findLotteryByCode = function(code){
         throw new Error("code:"+code+" is not supported!");
     return api;
 };
+
+exports.getAllLottery = function(){
+    return _.values(require("./src/baseLotteryApi").lotteryRegistry);
+};

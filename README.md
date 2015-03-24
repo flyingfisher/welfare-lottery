@@ -6,6 +6,10 @@ This project is write in Typescript 1.4.
 Api:
 ```
 var lotteryRegister = require("welfare-lottery");
+
+lotteryRegister.getAllLottery():api[];
+lotteryRegister.findLotteryByCode(code):api;
+
 var api = lotteryRegister.findLotteryByCode("01");
 
 api.name // chinese name of current api
