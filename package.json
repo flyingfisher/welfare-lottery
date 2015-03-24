@@ -1,0 +1,27 @@
+{
+  "name": "welfare-lottery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flyingfisher/welfare-lottery.git"
+  },
+  "keywords": [
+    "lottery"
+  ],
+  "author": "flyingfisher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flyingfisher/welfare-lottery/issues"
+  },
+  "homepage": "https://github.com/flyingfisher/welfare-lottery",
+  "dependencies": {
+    "lodash": "^3.5.0",
+    "mathjs": "^1.4.0",
+    "underscore.string": "^3.0.3"
+  }
+}

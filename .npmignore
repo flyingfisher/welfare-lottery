@@ -1,0 +1,7 @@
+*.ts
+*.map
+.idea
+.git
+typings
+*.log
+test
