@@ -2,13 +2,8 @@
  * Created by fish on 2014/11/27.
  */
 
-var fs = require("fs");
-
-if(fs.existsSync("./node_modules/lodash"))
-    _ = require("./node_modules/lodash/index.js");
-    
-if(fs.existsSync("./node_modules/underscore.string"))    
-    _.str = require("./node_modules/underscore.string/index.js");
+_ = require("lodash");
+_.str = require("underscore.string");
 
 require("./src/pick5From15Api");
 require("./src/q3dApi");
