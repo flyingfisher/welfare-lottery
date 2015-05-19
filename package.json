@@ -21,7 +21,6 @@
   "homepage": "https://github.com/flyingfisher/welfare-lottery",
   "dependencies": {
     "lodash": "^3.5.0",
-    "mathjs": "^1.4.0",
     "underscore.string": "^3.0.3"
   }
 }
