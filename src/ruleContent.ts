@@ -64,8 +64,8 @@ export class NormalRuleContent implements IRuleContent {
                 self.selectNumbers = code.split(self.joinSeparator) || [];
             }
 
-            self.selectNumbers = self.selectNumbers.map((it:any)=>parseInt(it)).filter((it)=>!isNaN(it));
-            self.bankerNumbers = self.bankerNumbers.map((it:any)=>parseInt(it)).filter((it)=>!isNaN(it));
+            self.selectNumbers = self.selectNumbers.map((it:any)=>_.parseInt(it)).filter((it)=>!isNaN(it));
+            self.bankerNumbers = self.bankerNumbers.map((it:any)=>_.parseInt(it)).filter((it)=>!isNaN(it));
         }
     }
 

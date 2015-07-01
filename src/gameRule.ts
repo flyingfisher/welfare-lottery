@@ -314,7 +314,7 @@ export class Q3dTotalGameRule extends NormalGameRule{
 
     getHitCodes(castBalls:IBall[], awardBalls:IBall[]) {
         var total = awardBalls.reduce((memo,it)=>{
-            var num = parseInt(it.value);
+            var num = _.parseInt(it.value);
             if (!_.isNaN(num))
                 memo += num;
             return memo;
